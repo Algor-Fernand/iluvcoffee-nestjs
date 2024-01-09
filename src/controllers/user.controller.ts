@@ -40,11 +40,3 @@ export class UserController {
     await this.userRepository.delete(id);
   }
 }
-
-// function constructor(arg0: any, Private: any, readonly: any, userRepository: any, arg4: { new(target: import("typeorm").EntityTarget<User>, manager: import("typeorm").EntityManager, queryRunner?: import("typeorm").QueryRunner): Repository<User>; prototype: Repository<any>; }) {
-//     throw new Error('Function not implemented.');
-// }
-
-// function findAllUsers() {
-//     throw new Error('Function not implemented.');
-// }
